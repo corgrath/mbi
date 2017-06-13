@@ -1,0 +1,86 @@
+.mbi-body {
+
+    max-width: 1366px;
+    margin: 0 auto 0;
+
+    background-image: url(../images/background.png);
+    background-size: contain;
+    background-position: center top;
+    background-repeat: repeat-x;
+    background-color: #fbfbfb;
+
+}
+
+.mbi-body__contents {
+    padding: 20px;
+}
+
+.mbi-h1 {
+    font-size: 32px;
+}
+
+.mbi-pre {
+    max-height: 400px;
+}
+
+.mbi-table th, .mbi-table td {
+    font-size: 14px;
+}
+
+.mbi-width-auto {
+    width: auto;
+}
+
+.mbi-width-100 {
+    width: 100%;
+}
+
+.mbi-margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.mbi-margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.mbi-margin-bottom-5 {
+    margin-bottom: 5px;
+}
+
+.mbi-text-align-right {
+    text-align: right;
+}
+
+.mbi-secret-tip {
+    font-style: italic;
+    font-size: 11px;
+}
+
+.mbi-nav {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.mbi-nav li div {
+    text-align: left;
+}
+
+.mbi-nav li a:hover {
+    background: none !important;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.mbi-nav li a {
+    border-bottom-color: #ddd !important;
+    color: gray !important;
+}
+
+.mbi-nav li.active a {
+    color: black !important;
+}
+
+input.form-control[type=file] {
+    height: auto;
+}

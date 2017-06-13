@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>Massive Entertainment Budget Business Intelligence Tool</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!--Our CSS-->
+    <link rel="stylesheet" href="stylesheets/massive.css">
+
+</head>
+<body class="mbi-body">
+<div class="mbi-body__contents">
+
+    <div class="row">
+        <div class="col-md-12">
+            <a href="index.html"><img src="images/logo.png" title="Massive Entertainment Budget Business Intelligence Tool" class="mbi-logo"></a>
+        </div>
+    </div>
+
+    <div id="mbi-navigator">
+        <!--Content here will be auto-generated-->
+    </div>
+
+    <div id="mbi-notificator">
+        <!--Content here will be auto-generated-->
+    </div>
+
+    <div id="mbi-view-container" class="view">
+        <!--Content here will be auto-generated-->
+    </div>
+
+</div>
+
+<!-- External JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.10.5/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/alasql/0.4.0/alasql.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js"></script>
+
+<!-- Internal JavaScript -->
+<script src="scripts/mbi.js"></script>
+<script src="scripts/mbi-data.js"></script>
+<script src="scripts/mbi-html.js"></script>
+<script src="scripts/mbi-db.js"></script>
+<script src="scripts/mbi-notificator.js"></script>
+<script src="scripts/mbi-navigator.js"></script>
+
+<script src="scripts/mbi-view-1-extract.js"></script>
+<script src="scripts/mbi-view-2-transform.js"></script>
+<script src="scripts/mbi-view-3-load.js"></script>
+<script src="scripts/mbi-view-4-analyze.js"></script>
+
+<script>
+
+    // Start the party baby!
+    window.mbi.navigator.show(window.mbi.view.extract);
+
+</script>
+
+
+</body>
+</html>
